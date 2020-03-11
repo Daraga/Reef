@@ -70,14 +70,11 @@ video {
 }
 */
 
-<<<<<<< HEAD
 a:visited {
     color: red;
 }
 
 /*
-=======
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
 .navbar .icon {
     display: none;
 }
@@ -85,29 +82,17 @@ a:visited {
 
 /*
 .navbar {
-<<<<<<< HEAD
     overflow: hidden;
     background-color: #333;
     background-color: lightsteelblue;
     position: fixed;
     top: 0;
     width: 100%;
-=======
-  overflow: hidden;
-  background-color: #333;
-  background-color: lightsteelblue;
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
 }
 */
 
 .navbar a {
 
-<<<<<<< HEAD
     float: left;
     display: block;
     color: white;
@@ -116,16 +101,6 @@ a:visited {
     text-decoration: none;
     /*  font-size: 1.5rem;*/
     /*    font-size: 1.8vw;*/
-=======
-  float: left;
-  display: block;
-  /* color: white; */
-  text-align: center;
-  padding: 14px 16px 2px;
-  text-decoration: none;
-/*  font-size: 1.5rem;*/
-/*    font-size: 1.8vw;*/
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
     font-size: 1.8vw;
     font-weight: bold;
 }
@@ -133,10 +108,6 @@ a:visited {
 .navbar a:hover {
     background: #ddd;
     color: black;
-}
-
-a:link{
-  color: darkblue;
 }
 
 main {
@@ -159,13 +130,8 @@ h1 {
     padding-top: 20px;
     font-weight: 700;
     font-size: 7vw;
-<<<<<<< HEAD
     /*  font-size: 7rem;*/
     text-align: center;
-=======
-/*  font-size: 7rem;*/
-  text-align: center;
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
 
 }
 
@@ -187,22 +153,13 @@ ul li {
 
 }
 
-<<<<<<< HEAD
 .attractor {
     text-align: center;
-=======
-.attractor{
-   text-align: center;
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
     font-style: italic;
     /*   width: 50%; */
 }
 
-<<<<<<< HEAD
 .intro {
-=======
-.intro{
->>>>>>> 128a6a950afda222b860215c0967cc611bc548b5
     text-align: center;
     font-style: italic;
 }
