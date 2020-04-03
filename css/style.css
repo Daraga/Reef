@@ -12,13 +12,14 @@ video {
     height: auto;
     max-width: 100%;
 }
-.logo{
+
+.logo {
     width: auto;
     height: auto;
     max-width: 5%;
-    
+
 }
-    
+
 
 /*
 @media screen and (max-width: 1040px) {
@@ -120,7 +121,7 @@ body {
     font-size: 2vw;
     /*  font-size: 1.5rem;*/
     background-color: coral;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Myriad Pro', serif;
     color: black;
 
 }
@@ -132,6 +133,7 @@ h1 {
     font-size: 7vw;
     /*  font-size: 7rem;*/
     text-align: center;
+    font-family: 'Garamond';
 
 }
 
@@ -225,9 +227,10 @@ ul li {
     width: 100%;
     position: absolute;
 }
-    .quantity{
-        border-style: solid;
-    }
+
+.quantity {
+    border-style: solid;
+}
 
 label {
     display: block;
@@ -240,13 +243,13 @@ label {
     margin: 14rem 100;
 }
 
-.productText{
+.productText {
     text-align: center;
     vertical-align: middle;
     padding: 10px;
 }
 
-.productTitle{
+.productTitle {
     text-align: center;
     vertical-align: middle;
 }
