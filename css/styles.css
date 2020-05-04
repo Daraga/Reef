@@ -2,10 +2,38 @@
     padding: 14px 20px 2px;
     color: black;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
+    padding: 1vw 3vw 3vw;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
+}
+
+.mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: darkblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
 }
