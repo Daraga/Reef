@@ -6,18 +6,26 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Reefs Are Home</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
-
 </head>
 
 <body>
     <header class="site-header">
         <nav class="navbar" id="mynavbar">
 
-            <a href="index.html">
-                <img class="logo" src="images/logo.png">
+            <!--            not sure what this JS line is doing-->
+            <!--
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>a
+            </a>
+-->
+
+            <a href="javascript:void(0);">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png">
+                </a>
             </a>
 
+            <!--            <img class="logo" src="images/Reef.png" width="300">-->
             <a href="index.html" class="active"> Home </a>
             <a href="info.html"> Facts </a>
             <a href="products.html">Products</a>
@@ -86,47 +94,7 @@
                 <td>1</td>
             </tr>
         </table>
-
-        <span onclick="openCredit()"><a href="#" class="button">Submit</a></span>
-
-
-        <div id="credit" class="overlay">
-            <a href="#" class="closebtn" onclick="closeCredit()">&times;</a>
-
-            <div class="overlay-content">
-
-                <p>
-                    <h1>Payment </h1>
-                    Name on card<br>
-                    <input type="text" placeholder="John H Doe">
-                </p>
-
-                <p>
-                    Credit Card Number<br>
-                    <input type="text" placeholder="0123-0123-0123-0123">
-                </p>
-
-                <p>
-                    Expiration Month<br>
-                    <input type="text" placeholder="August">
-                </p>
-
-                <p>
-                    Expiration Year<br>
-                    <input type="text" placeholder="2030">
-                </p>
-
-                <p>
-                    CVV<br>
-                    <input type="text" placeholder="123">
-                </p>
-
-                <span onclick="openCredit()"><a href="#" class="button">Continue to Checkout</a></span>
-            </div>
-        </div>
-
-
-
+        <a href="#" class="button">SUBMIT</a>
     </main>
 </body>
 

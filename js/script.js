@@ -1,6 +1,7 @@
-function multiplyBy() {
-    num1 = document.getEmlementById("firstNumber").value;
-    num2 = document.getElementById("secondNumber").value;
-    document.getElementById("result").innerHTML = num1 * num2;
+function openCredit() {
+    document.getElementById("credit").style.width = "100%";
+}
 
+function closeCredit() {
+    document.getElementById("credit").style.width = "0%";
 }

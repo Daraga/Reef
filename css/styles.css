@@ -9,7 +9,11 @@
 
 .navbar a:hover {
     background: #ddd;
-    color: black;
+    color: white;
+}
+
+a:hover {
+    color: white;
 }
 
 .logo {
@@ -49,5 +53,31 @@ body {
     background-color: lightblue;
     font-family: 'Myriad Pro', serif;
     color: black;
+}
 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 2px;
+    font-size: 28px;
+    color: white;
+}
+
+.overlay-content {
+    position: relative;
+    top: 0%;
+    text-align: center;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
 }
