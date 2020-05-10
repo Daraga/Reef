@@ -53,6 +53,7 @@ body {
     background-color: lightblue;
     font-family: 'Myriad Pro', serif;
     color: black;
+    text-align: center;
 }
 
 .overlay {
@@ -79,5 +80,4 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
-}
 }
