@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Reefs Are Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,600&display=swap" rel="stylesheet">
     <script src="js/script.js"></script>
 
 </head>
@@ -14,44 +15,51 @@
     <header class="site-header">
         <nav class="navbar" id="mynavbar">
             <p>
-                <a href="index.html">
-                    <img class="logo" src="images/logo.png">
-                </a>
+
+                <img class="logo" src="images/logo.png">
+
             </p>
-
-
-            <a href="products.html"> Home </a>
-            <a href="index.html"> <span class="curr"> Products </span> </a>
+            <div class="navlink">
+                <a href="index.html"> <span class="curr"> Home </span> </a>
+                <a href="products.html">Products</a>
+            </div>
         </nav>
     </header>
 
 
     <main role="main">
-        <h1>Products</h1>
-        <h2>Your contribution can help us preserve the reef by funding a Queensland-based coral nursery. No contribution is too small! Please check out our great rewards:</h2>
-        <table style="width:100%">
-            <tr>
-                <th></th>
-                <th>Product</th>
-                <th>Size</th>
-                <th>Quantity</th>
-                <th>Total</th>
+        <section class="info">
+            <section class="facts">
+                <h2>Products</h2>
+                <p>Your contribution can help us preserve the reef by funding a Queensland-based coral nursery.
+                    <p> No contribution is too small! Please check out our great rewards: </p>
+
+                    <table style="width:100%">
+                        <tr>
+                            <th></th>
+                            <th>Product</th>
+                            <th>Size</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+            </section>
+            <tr style="background-color: #fed766">
+                <section class="facts">
+                    <td><img src="images/bott.png" width="200" /></td>
+                    <td>18 oz. Vacuum Insulated Water Bottle Vacuum-insulated for maximum temperature retention keeps beverages cold for 12 hours.</td>
+                    <td>N/A</td>
+                    <td><label for="quantity"></label>
+                        <select id="cars">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>1</td>
+                </section>
             </tr>
-            <tr>
-                <td><img src="images/bott.png" width="200" /></td>
-                <td>18 oz. Vacuum Insulated Water Bottle Vacuum-insulated for maximum temperature retention keeps beverages cold for 12 hours.</td>
-                <td>N/A</td>
-                <td><label for="quantity"></label>
-                    <select id="cars">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </td>
-                <td>1</td>
-            </tr>
-            <tr>
+            <tr style="background-color: #ff9d2c">
                 <td><img src="images/bag.png" width="200" /></td>
                 <td>Tote bag.Shoulder-length handles provide easy over-the-shoulder carry. Made from 100% cotton cord, Tote is durable, soft and comfortable to use all day, and the large size will fit all your seaside essentials.</td>
                 <td>N/A</td>
@@ -65,7 +73,7 @@
                 </td>
                 <td>1</td>
             </tr>
-            <tr>
+            <tr style="background-color: #fed766">
                 <td><img src="images/shirt.png" width="200" /></td>
                 <td> T-shirt. A t-shirt made with organic cotton - perfect for the beach!</td>
                 <td><label for="size"></label>
@@ -86,45 +94,46 @@
                 </td>
                 <td>1</td>
             </tr>
-        </table>
+            </table>
 
-        <span onclick="openCredit()"><a href="#" class="button">Submit</a></span>
+            <span onclick="openCredit()"><a href="#" class="button">Submit</a></span>
 
 
-        <div id="credit" class="overlay">
-            <a href="#" class="closebtn" onclick="closeCredit()">&times;</a>
+            <div id="credit" class="overlay">
+                <a href="#" class="closebtn" onclick="closeCredit()"> &times; </a>
 
-            <div class="overlay-content">
+                <div class="overlay-content">
 
-                <p>
-                    <h1>Payment </h1>
-                    Name on card<br>
-                    <input type="text" placeholder="John H Doe">
-                </p>
+                    <p>
+                        <h1>Payment </h1>
+                        Name on card<br>
+                        <input type="text" placeholder="John H Doe">
+                    </p>
 
-                <p>
-                    Credit Card Number<br>
-                    <input type="text" placeholder="0123-0123-0123-0123">
-                </p>
+                    <p>
+                        Credit Card Number<br>
+                        <input type="text" placeholder="0123-0123-0123-0123">
+                    </p>
 
-                <p>
-                    Expiration Month<br>
-                    <input type="text" placeholder="August">
-                </p>
+                    <p>
+                        Expiration Month<br>
+                        <input type="text" placeholder="August">
+                    </p>
 
-                <p>
-                    Expiration Year<br>
-                    <input type="text" placeholder="2030">
-                </p>
+                    <p>
+                        Expiration Year<br>
+                        <input type="text" placeholder="2030">
+                    </p>
 
-                <p>
-                    CVV<br>
-                    <input type="text" placeholder="123">
-                </p>
+                    <p>
+                        CVV<br>
+                        <input type="text" placeholder="123">
+                    </p>
 
-                <span onclick="openCredit()"><a href="#" class="button">Continue to Checkout</a></span>
+                    <span onclick="openCredit()"><a href="#" class="button">Continue to Checkout</a></span>
+                </div>
             </div>
-        </div>
+        </section>
 
 
 

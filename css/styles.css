@@ -48,28 +48,30 @@ a {
 }
 
 main {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 1px;
+    padding-top: 1px;
     text-align: center;
+    padding: 2vw, 3vw, 2vw;
 }
 
 .button {
-    background-color: #4CAF50;
+    /*    background-color: #4CAF50;*/
     border: none;
-    color: darkblue;
+    color: orangered;
     text-decoration: none;
     display: inline-block;
     padding: 15px 32px;
-    font-size: 16px;
+    font-size: 30px;
     margin: 4px 2px;
+    font-weight: bold;
 }
 
 body {
     margin: 0;
     font-size: 2vw;
-    background-color: #3b3b3b;
+    background-color: white;
     font-family: 'Myriad Pro', serif;
-    color: darkorange;
+    color: black;
 
 }
 
@@ -81,7 +83,7 @@ body {
     background-color: rgba(0, 0, 0, .5);
     overflow-x: hidden;
     transition: 0.5s;
-    padding: 2px;
+    padding: 0px;
     font-size: 28px;
     color: white;
 }
@@ -95,26 +97,39 @@ body {
 .overlay .closebtn {
     position: absolute;
     font-size: 40px;
-    top: 15px;
-    right: 35px;
+    top: 4%;
+    right: 10%;
 }
 
 h2 {
     font-family: 'EB Garamond', serif;
     width: 90%;
     border-bottom-style: solid;
-    border-color: red;
+    border-color: white;
     font-size: 6vw;
     ;
 }
 
 .info {
-    padding: 1vw 4vw 1vw;
+    padding: 2vw 2vw 2vw;
 }
 
 input[type=text] {
-    background-color: gray;
-    color: red;
+    background-color: white;
+    color: darkorange;
+    font-size: 3vw;
+}
+
+input[type=submit] {
+    font-size: 3vw;
+}
+
+input[type=reset] {
+    font-size: 3vw;
+}
+
+.contact {
+    font-size: 3vw;
 }
 
 .img4 {
@@ -137,4 +152,8 @@ input[type=text] {
 
 .bigger {
     font-size: 120%;
+}
+
+.facts {
+    background-color: #ff9d2c;
 }
