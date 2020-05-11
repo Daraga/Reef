@@ -1,15 +1,22 @@
 .navbar a {
     padding: 14px 20px 2px;
-    color: black;
+    color: darkorange;
     text-decoration: none;
     font-size: 4vw;
     font-weight: bold;
     padding: .1vw 3vw 1vw;
+
+}
+
+.navbar {
+    background-image: url("3.jpg");
+    min-height: 380px;
+    background-position: center;
 }
 
 .navbar a:hover {
-    background: #ddd;
-    color: white;
+    background: #f1f1f1f1;
+    color: yellow;
 }
 
 a:hover {
@@ -20,8 +27,12 @@ a:hover {
     width: 125px;
 }
 
+.curr {
+    color: yellow;
+}
+
 a {
-    color: black;
+    color: orangered;
 }
 
 .mainImage {
@@ -51,9 +62,9 @@ main {
 body {
     margin: 0;
     font-size: 2vw;
-    background-color: lightblue;
+    background-color: #3b3b3b;
     font-family: 'Myriad Pro', serif;
-    color: black;
+    color: darkorange;
 
 }
 
@@ -81,4 +92,21 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    width: 90%;
+    border-bottom-style: solid;
+    border-color: red;
+    ;
+}
+
+.facts {
+    padding: 1vw 4vw 1vw;
+}
+
+input[type=text] {
+    background-color: gray;
+    color: red;
 }
