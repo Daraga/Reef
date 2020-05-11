@@ -1,21 +1,23 @@
 .navbar a {
-    padding: 14px 20px 2px;
     color: darkorange;
     text-decoration: none;
     font-size: 4vw;
     font-weight: bold;
     padding: .1vw 3vw 1vw;
+    font-family: 'EB Garamond', serif;
+
 
 }
 
 .navbar {
     background-image: url("3.jpg");
-    min-height: 380px;
+    min-height: 3px;
     background-position: center;
+
 }
 
 .navbar a:hover {
-    background: #f1f1f1f1;
+    background-color: red;
     color: yellow;
 }
 
@@ -24,7 +26,17 @@ a:hover {
 }
 
 .logo {
-    width: 125px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-bottom: solid;
+}
+
+.navlink {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .curr {
@@ -33,13 +45,6 @@ a:hover {
 
 a {
     color: orangered;
-}
-
-.mainImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
 }
 
 main {
@@ -99,14 +104,33 @@ h2 {
     width: 90%;
     border-bottom-style: solid;
     border-color: red;
+    font-size: 4vw;
     ;
 }
 
-.facts {
+.info {
     padding: 1vw 4vw 1vw;
 }
 
 input[type=text] {
     background-color: gray;
     color: red;
+}
+
+.img4 {
+    background-image: url("4.jpg");
+    min-height: 360px;
+    background-position: center;
+    color: white;
+}
+
+.img1 {
+    background-image: url("1.png");
+    min-height: 360px;
+    background-position: center;
+    color: white;
+}
+
+.desc {
+    text-align: left;
 }
