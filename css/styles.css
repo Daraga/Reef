@@ -104,11 +104,15 @@ body {
 
 h2 {
     font-family: 'EB Garamond', serif;
-    width: 90%;
+    width: 100%;
     border-bottom-style: solid;
     border-color: white;
     font-size: 6vw;
     ;
+}
+
+h3 {
+    font-size: 2vw;
 }
 
 .info {
@@ -157,4 +161,15 @@ input[type=reset] {
 
 .facts {
     background-color: #ff9d2c;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bullets {
+    background-color: #ff9d2c;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
 }
