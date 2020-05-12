@@ -151,6 +151,13 @@ input[type=reset] {
     color: white;
 }
 
+.img2 {
+    background-image: url("2.png");
+    min-height: 360px;
+    background-position: center;
+    color: white;
+}
+
 .desc {
     text-align: left;
 }
@@ -172,4 +179,17 @@ input[type=reset] {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 1px;
+}
+
+.column {
+    padding-top: 1px;
+    float: left;
+    width: 33.33% padding:5px;
+}
+
+.row::after {
+    content: "";
+    clear;
+    both;
+    display: table;
 }
