@@ -121,8 +121,8 @@ h3 {
 
 input[type=text] {
     background-color: white;
-    color: darkorange;
-    font-size: 3vw;
+    color: black;
+    font-size: 2vw;
 }
 
 input[type=submit] {
@@ -134,7 +134,7 @@ input[type=reset] {
 }
 
 .contact {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .img4 {
