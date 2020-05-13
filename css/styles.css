@@ -180,16 +180,3 @@ input[type=reset] {
     padding-right: 20px;
     padding-top: 1px;
 }
-
-.column {
-    padding-top: 1px;
-    float: left;
-    width: 33.33% padding:5px;
-}
-
-.row::after {
-    content: "";
-    clear;
-    both;
-    display: table;
-}
