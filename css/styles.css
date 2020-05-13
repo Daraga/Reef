@@ -1,29 +1,51 @@
 .navbar a {
+
     color: lightyellow;
+
     text-decoration: none;
+
     font-size: 4vw;
+
     font-weight: bold;
+
     padding: .1vw 3vw 1vw;
+
     font-family: 'EB Garamond', serif;
 
 
+
 }
+
 
 .navbar {
+
     background-image: url("3.jpg");
+
     min-height: 3px;
+
     background-position: center;
 
+
 }
+
 
 .navbar a:hover {
-    background-color: red;
+
+    //*background-color: red;*//
+
     color: yellow;
+
 }
 
+
 a:hover {
-    color: white;
+
+    color: #d15224;
+    ;
+
 }
+
+
 
 .logo {
     width: 100px;
