@@ -1,48 +1,28 @@
 .navbar a {
 
     color: lightyellow;
-
     text-decoration: none;
-
     font-size: 4vw;
-
     font-weight: bold;
-
     padding: .1vw 3vw 1vw;
-
     font-family: 'EB Garamond', serif;
-
-
-
 }
 
 
 .navbar {
-
     background-image: url("3.jpg");
-
     min-height: 3px;
-
     background-position: center;
-
-
 }
 
 
 .navbar a:hover {
-
-    //*background-color: red;*//
-
     color: yellow;
-
 }
 
 
 a:hover {
-
     color: #d15224;
-    ;
-
 }
 
 
@@ -182,6 +162,7 @@ input[type=reset] {
 
 .desc {
     text-align: left;
+    font-size: 60%;
 }
 
 .bigger {
@@ -202,3 +183,5 @@ input[type=reset] {
     padding-right: 20px;
     padding-top: 1px;
 }
+
+.table {}
