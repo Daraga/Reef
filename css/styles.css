@@ -22,7 +22,8 @@
 
 
 a:hover {
-    color: lightyellow;
+    color: #941f0a;
+
 }
 
 
@@ -175,14 +176,26 @@ input[type=reset] {
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    line-height: 2;
 }
+
+.contacts {
+
+    background-color: #f8f6c4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
 
 .products {
     /*    background-color: #ff9d2c;
     */
     background-color: #f8f6c4;
     padding-top: 10px;
-    padding-bottom: 1px;
+    padding-bottom: .5px;
     padding-left: 30px;
     padding-right: 20px;
     text-align: center;
@@ -190,11 +203,19 @@ input[type=reset] {
 
 .bullets {
     background-color: #f8f6c4;
-    padding-bottom: 40px;
+    padding-bottom: .5px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 1px;
+    padding-top: .5px;
+    line-height: 2;
+}
 
+.checkout {
+    background-color: #f8f6c4;
+    padding-bottom: .5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: .5px;
 }
 
 th,
