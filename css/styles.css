@@ -46,7 +46,7 @@ a:hover {
 }
 
 a {
-    color: #E33D2B;
+    color: #E8564B;
     text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ main {
 
 .button {
     border: none;
-    color: #E33D2B;
+    color: #E8564B;
     text-decoration: none;
     display: inline-block;
     padding: 15px 32px;
