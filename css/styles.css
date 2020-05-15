@@ -112,7 +112,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -194,6 +194,7 @@ input[type=reset] {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 1px;
+
 }
 
 th,
