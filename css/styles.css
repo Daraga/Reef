@@ -1,6 +1,6 @@
 .navbar a {
 
-    color: lightyellow;
+    color: #f8f6c4;
     text-decoration: none;
     font-size: 4vw;
     font-weight: bold;
@@ -17,12 +17,12 @@
 
 
 .navbar a:hover {
-    color: yellow;
+    color: lightyellow;
 }
 
 
 a:hover {
-    color: #d15224;
+    color: lightyellow;
 }
 
 
@@ -42,24 +42,24 @@ a:hover {
 }
 
 .curr {
-    color: yellow;
+    color: lightyellow;
 }
 
 a {
-    color: red;
+    color: #E33D2B;
+    text-decoration: none;
 }
 
 main {
     margin-top: 1px;
     padding-top: 1px;
-    text-align: center;
+    text-align: left;
     padding: 2vw, 3vw, 2vw;
 }
 
 .button {
-    /*    background-color: #4CAF50;*/
     border: none;
-    color: orangered;
+    color: #E33D2B;
     text-decoration: none;
     display: inline-block;
     padding: 15px 32px;
@@ -70,7 +70,7 @@ main {
 
 body {
     margin: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
     background-color: white;
     font-family: 'Myriad Pro', serif;
     color: black;
@@ -106,14 +106,14 @@ body {
 h2 {
     font-family: 'EB Garamond', serif;
     width: 100%;
-    border-bottom-style: solid;
-    border-color: white;
-    font-size: 6vw;
+    font-size: 4vw;
+    text-align: center;
     ;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 .info {
@@ -123,19 +123,19 @@ h3 {
 input[type=text] {
     background-color: white;
     color: black;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 input[type=submit] {
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 
 input[type=reset] {
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 
 .contact {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 .img4 {
@@ -169,18 +169,35 @@ input[type=reset] {
 }
 
 .facts {
-    background-color: #ff9d2c;
-    padding-bottom: 2px;
-    padding-left: 20px;
+
+    background-color: #f8f6c4;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.products {
+    /*    background-color: #ff9d2c;
+    */
+    background-color: #f8f6c4;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 30px;
     padding-right: 20px;
+    text-align: center;
 }
 
 .bullets {
-    background-color: #ff9d2c;
-    padding-bottom: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #f8f6c4;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 1px;
 }
 
-.table {}
+th,
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
